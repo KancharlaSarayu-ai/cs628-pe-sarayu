@@ -1,0 +1,40 @@
+body {
+  background: #f4f4f9;
+  margin: 0;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 3px;
+  background: #007bff;
+  color: white;
+  border: none;
+  
+}
+
+.taskproduct {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+
+
+}
+.taskproduct button{
+  background: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
