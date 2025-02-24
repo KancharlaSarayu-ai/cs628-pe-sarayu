@@ -1,0 +1,22 @@
+nav {
+  background: black;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+.container {
+  display: flex;
+}
+nav a {
+  color: white;
+  margin: 10px;
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+}
