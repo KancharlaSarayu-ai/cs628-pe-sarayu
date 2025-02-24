@@ -26,7 +26,7 @@ return (
         value={name}
         onChange={(o) => Name(o.target.value)}
         />
-        <br />
+        <br/>
 
         <label>Country:</label>
         <input
@@ -34,7 +34,7 @@ return (
         value={country}
         onChange={(o) => Country(o.target.value)}
         />
-        <br />
+        <br/>
 
         <label>Population:</label>
         <input
@@ -42,7 +42,7 @@ return (
         value={population}
         onChange={(o) => Population(o.target.value)}
         />
-        <br />
+        <br/>
 
         <button type="submit">Add </button>
     </form>
