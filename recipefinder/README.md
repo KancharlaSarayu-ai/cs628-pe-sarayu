@@ -1,0 +1,5 @@
+INPUT -  Through the Input level users submit information to the program by completing a form that contains data fields for new recipe details. Users needed to fill in three mandatory fields which include recipe name and list of ingredients and step-by-step procedure. Users fill the form's specified details before submitting the data to the server.
+
+PROCESS -  The program starts processing the submitted data through a POST request which redirects to the server. The input data passes through back end authentication where MongoDB stores the validated information in its database. After processing the request the server delivers a success response if the recipe gets saved successfully. The state management functionality of React which uses useState controls form data handling until the submission is complete.
+
+OUTPUT - As part of the output level successful submission results in both confirmation messaging while new entries appear in the database. The updated recipe list appears on the front-end user interface which reflects the newly created entry.
